@@ -9,7 +9,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: auto;
     margin-top: 20px;
-    width: 18%;
+    width: 25%;
     background-color: rgba(248, 248, 248, 0.801);
     border-radius: 7px;
     font-weight: bold;
@@ -78,7 +78,7 @@
 .search{
   display: grid;
   grid-template-columns: 11fr 1fr;
-  width: 18%;
+  width: 20%;
   margin: auto;
 }
 

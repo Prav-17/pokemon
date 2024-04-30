@@ -1,6 +1,6 @@
 .sideimg{
     display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-columns: 2fr 8fr 2fr;
     width: 100%;
     position: relative;
     margin: auto;
