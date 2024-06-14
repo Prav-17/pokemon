@@ -5,7 +5,7 @@ export default function Headerpoki(){
     return(
         <div className='headermainDiv'>
             <div className='headerText'>
-                <img src={headertxt} alt="" style={{width:'20%',marginTop:'30px'}}/>
+                <img src={headertxt} alt="" style={{width:'10%',marginTop:'20px'}}/>
             </div>
         </div>
     )

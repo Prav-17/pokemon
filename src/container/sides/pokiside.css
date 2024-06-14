@@ -3,5 +3,11 @@
     grid-template-columns: 2fr 8fr 2fr;
     width: 100%;
     position: relative;
+    /* bottom: 10px; */
+    margin: auto;
+    height: 100%;
+}
+.sideimgss{
+    width: 80%;
     margin: auto;
 }

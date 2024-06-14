@@ -51,21 +51,19 @@ const Pokemonfetch = (props)=>{
 
     return(
         <div className="pokimainDiv">
-            <div className="search searchcol">
-            
-            <Box
-            component="form"
-            sx={{
-              '& > :not(style)': { m: 1, width: '25ch' },
-            }}
-            noValidate
-            autoComplete="off"
-          >
-            <TextField id="outlined-basic" label="Search" variant="outlined" className="fetchInput" type="text" onChange={(e)=>{setName(e.target.value)}} />
-          </Box>
-
-          <button className="button-27" role="button" onClick={buttonHandler}>Fetch</button>
-         </div>
+            <div className="search searchcol">            
+                <Box
+                    component="form"
+                    sx={{
+                    '& > :not(style)': { m: 1, width: '25ch' },
+                    }}
+                    noValidate
+                    autoComplete="off"
+                >
+                    <TextField id="outlined-basic" label="Search" variant="outlined" className="fetchInput" type="text" onChange={(e)=>{setName(e.target.value)}} />
+                </Box>
+                <button className="button-27" role="button" onClick={buttonHandler}>Fetch</button>
+            </div>
 
             <div className="card">
                 <div style={{backgroundColor:"black", borderRadius:"10px", padding:"2%", margin:"2%"}}><img style={{width:"40%"}} src="" ref={imgdis}  alt="img"/></div>
