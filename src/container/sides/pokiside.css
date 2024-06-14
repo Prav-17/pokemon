@@ -11,3 +11,17 @@
     width: 80%;
     margin: auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .sideimg{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1px 11fr 1px;
+        position: relative;
+        margin: auto;
+    }
+    .sideimgss{
+        /* width: 80%; */
+        display: none !important;
+    }
+}

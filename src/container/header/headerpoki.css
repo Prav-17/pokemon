@@ -8,3 +8,13 @@
     width: 100%;
     margin: auto;
 }
+.headerText img{
+    width: 10%;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .headerText img{
+        width: 50%;
+        margin-top: 10px;
+    }
+}

@@ -12,7 +12,6 @@ function App() {
     <Headerpoki/>
     <Imgscroll/>
     <Pokiside/>
-    {/* <Pokemonfetch/> */}
     </div>
   );
 }
